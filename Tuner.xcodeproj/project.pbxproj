@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA9DF79C2B275A77009E3CE9 /* Tuner Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA9DF79B2B275A77009E3CE9 /* Tuner Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA9DF7A12B275A77009E3CE9 /* TunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DF7A02B275A77009E3CE9 /* TunerApp.swift */; };
+		DA9DF7A32B275A77009E3CE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DF7A22B275A77009E3CE9 /* ContentView.swift */; };
+		DA9DF7A52B275A78009E3CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9DF7A42B275A78009E3CE9 /* Assets.xcassets */; };
+		DA9DF7A82B275A78009E3CE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9DF7A72B275A78009E3CE9 /* Preview Assets.xcassets */; };
+		DA9DF7B22B275A78009E3CE9 /* Tuner_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DF7B12B275A78009E3CE9 /* Tuner_Watch_AppTests.swift */; };
+		DA9DF7BC2B275A78009E3CE9 /* Tuner_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DF7BB2B275A78009E3CE9 /* Tuner_Watch_AppUITests.swift */; };
+		DA9DF7BE2B275A78009E3CE9 /* Tuner_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DF7BD2B275A78009E3CE9 /* Tuner_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9DF79D2B275A77009E3CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9DF78F2B275A77009E3CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9DF79A2B275A77009E3CE9;
+			remoteInfo = "Tuner Watch App";
+		};
+		DA9DF7AE2B275A78009E3CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9DF78F2B275A77009E3CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9DF79A2B275A77009E3CE9;
+			remoteInfo = "Tuner Watch App";
+		};
+		DA9DF7B82B275A78009E3CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9DF78F2B275A77009E3CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9DF79A2B275A77009E3CE9;
+			remoteInfo = "Tuner Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA9DF7C42B275A78009E3CE9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DA9DF79C2B275A77009E3CE9 /* Tuner Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA9DF7952B275A77009E3CE9 /* Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9DF79B2B275A77009E3CE9 /* Tuner Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tuner Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9DF7A02B275A77009E3CE9 /* TunerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerApp.swift; sourceTree = "<group>"; };
+		DA9DF7A22B275A77009E3CE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA9DF7A42B275A78009E3CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9DF7A72B275A78009E3CE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA9DF7AD2B275A78009E3CE9 /* Tuner Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuner Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9DF7B12B275A78009E3CE9 /* Tuner_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DA9DF7B72B275A78009E3CE9 /* Tuner Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuner Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9DF7BB2B275A78009E3CE9 /* Tuner_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DA9DF7BD2B275A78009E3CE9 /* Tuner_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9DF7982B275A77009E3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7AA2B275A78009E3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7B42B275A78009E3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9DF78E2B275A77009E3CE9 = {
+			isa = PBXGroup;
+			children = (
+				DA9DF79F2B275A77009E3CE9 /* Tuner Watch App */,
+				DA9DF7B02B275A78009E3CE9 /* Tuner Watch AppTests */,
+				DA9DF7BA2B275A78009E3CE9 /* Tuner Watch AppUITests */,
+				DA9DF7962B275A77009E3CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9DF7962B275A77009E3CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DF7952B275A77009E3CE9 /* Tuner.app */,
+				DA9DF79B2B275A77009E3CE9 /* Tuner Watch App.app */,
+				DA9DF7AD2B275A78009E3CE9 /* Tuner Watch AppTests.xctest */,
+				DA9DF7B72B275A78009E3CE9 /* Tuner Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9DF79F2B275A77009E3CE9 /* Tuner Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DF7A02B275A77009E3CE9 /* TunerApp.swift */,
+				DA9DF7A22B275A77009E3CE9 /* ContentView.swift */,
+				DA9DF7A42B275A78009E3CE9 /* Assets.xcassets */,
+				DA9DF7A62B275A78009E3CE9 /* Preview Content */,
+			);
+			path = "Tuner Watch App";
+			sourceTree = "<group>";
+		};
+		DA9DF7A62B275A78009E3CE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DF7A72B275A78009E3CE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA9DF7B02B275A78009E3CE9 /* Tuner Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DF7B12B275A78009E3CE9 /* Tuner_Watch_AppTests.swift */,
+			);
+			path = "Tuner Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DA9DF7BA2B275A78009E3CE9 /* Tuner Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9DF7BB2B275A78009E3CE9 /* Tuner_Watch_AppUITests.swift */,
+				DA9DF7BD2B275A78009E3CE9 /* Tuner_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Tuner Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9DF7942B275A77009E3CE9 /* Tuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9DF7C52B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner" */;
+			buildPhases = (
+				DA9DF7932B275A77009E3CE9 /* Resources */,
+				DA9DF7C42B275A78009E3CE9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9DF79E2B275A77009E3CE9 /* PBXTargetDependency */,
+			);
+			name = Tuner;
+			productName = Tuner;
+			productReference = DA9DF7952B275A77009E3CE9 /* Tuner.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DA9DF79A2B275A77009E3CE9 /* Tuner Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9DF7C12B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch App" */;
+			buildPhases = (
+				DA9DF7972B275A77009E3CE9 /* Sources */,
+				DA9DF7982B275A77009E3CE9 /* Frameworks */,
+				DA9DF7992B275A77009E3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tuner Watch App";
+			productName = "Tuner Watch App";
+			productReference = DA9DF79B2B275A77009E3CE9 /* Tuner Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9DF7AC2B275A78009E3CE9 /* Tuner Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9DF7C82B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch AppTests" */;
+			buildPhases = (
+				DA9DF7A92B275A78009E3CE9 /* Sources */,
+				DA9DF7AA2B275A78009E3CE9 /* Frameworks */,
+				DA9DF7AB2B275A78009E3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9DF7AF2B275A78009E3CE9 /* PBXTargetDependency */,
+			);
+			name = "Tuner Watch AppTests";
+			productName = "Tuner Watch AppTests";
+			productReference = DA9DF7AD2B275A78009E3CE9 /* Tuner Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA9DF7B62B275A78009E3CE9 /* Tuner Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9DF7CB2B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch AppUITests" */;
+			buildPhases = (
+				DA9DF7B32B275A78009E3CE9 /* Sources */,
+				DA9DF7B42B275A78009E3CE9 /* Frameworks */,
+				DA9DF7B52B275A78009E3CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9DF7B92B275A78009E3CE9 /* PBXTargetDependency */,
+			);
+			name = "Tuner Watch AppUITests";
+			productName = "Tuner Watch AppUITests";
+			productReference = DA9DF7B72B275A78009E3CE9 /* Tuner Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9DF78F2B275A77009E3CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DA9DF7942B275A77009E3CE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DA9DF79A2B275A77009E3CE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DA9DF7AC2B275A78009E3CE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DA9DF79A2B275A77009E3CE9;
+					};
+					DA9DF7B62B275A78009E3CE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DA9DF79A2B275A77009E3CE9;
+					};
+				};
+			};
+			buildConfigurationList = DA9DF7922B275A77009E3CE9 /* Build configuration list for PBXProject "Tuner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9DF78E2B275A77009E3CE9;
+			productRefGroup = DA9DF7962B275A77009E3CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9DF7942B275A77009E3CE9 /* Tuner */,
+				DA9DF79A2B275A77009E3CE9 /* Tuner Watch App */,
+				DA9DF7AC2B275A78009E3CE9 /* Tuner Watch AppTests */,
+				DA9DF7B62B275A78009E3CE9 /* Tuner Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9DF7932B275A77009E3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7992B275A77009E3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9DF7A82B275A78009E3CE9 /* Preview Assets.xcassets in Resources */,
+				DA9DF7A52B275A78009E3CE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7AB2B275A78009E3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7B52B275A78009E3CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9DF7972B275A77009E3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9DF7A32B275A77009E3CE9 /* ContentView.swift in Sources */,
+				DA9DF7A12B275A77009E3CE9 /* TunerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7A92B275A78009E3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9DF7B22B275A78009E3CE9 /* Tuner_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9DF7B32B275A78009E3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9DF7BC2B275A78009E3CE9 /* Tuner_Watch_AppUITests.swift in Sources */,
+				DA9DF7BE2B275A78009E3CE9 /* Tuner_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9DF79E2B275A77009E3CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9DF79A2B275A77009E3CE9 /* Tuner Watch App */;
+			targetProxy = DA9DF79D2B275A77009E3CE9 /* PBXContainerItemProxy */;
+		};
+		DA9DF7AF2B275A78009E3CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9DF79A2B275A77009E3CE9 /* Tuner Watch App */;
+			targetProxy = DA9DF7AE2B275A78009E3CE9 /* PBXContainerItemProxy */;
+		};
+		DA9DF7B92B275A78009E3CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9DF79A2B275A77009E3CE9 /* Tuner Watch App */;
+			targetProxy = DA9DF7B82B275A78009E3CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA9DF7BF2B275A78009E3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA9DF7C02B275A78009E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DA9DF7C22B275A78009E3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tuner Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tuner;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jacobfed.Tuner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DA9DF7C32B275A78009E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tuner Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tuner;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jacobfed.Tuner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DA9DF7C62B275A78009E3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				INFOPLIST_KEY_CFBundleDisplayName = Tuner;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jacobfed.Tuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA9DF7C72B275A78009E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				INFOPLIST_KEY_CFBundleDisplayName = Tuner;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jacobfed.Tuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9DF7C92B275A78009E3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacobfed.Tuner-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuner Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuner Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DA9DF7CA2B275A78009E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacobfed.Tuner-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuner Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuner Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DA9DF7CC2B275A78009E3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacobfed.Tuner-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tuner Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DA9DF7CD2B275A78009E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H42YKRBYWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacobfed.Tuner-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tuner Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9DF7922B275A77009E3CE9 /* Build configuration list for PBXProject "Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9DF7BF2B275A78009E3CE9 /* Debug */,
+				DA9DF7C02B275A78009E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9DF7C12B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9DF7C22B275A78009E3CE9 /* Debug */,
+				DA9DF7C32B275A78009E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9DF7C52B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9DF7C62B275A78009E3CE9 /* Debug */,
+				DA9DF7C72B275A78009E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9DF7C82B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9DF7C92B275A78009E3CE9 /* Debug */,
+				DA9DF7CA2B275A78009E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9DF7CB2B275A78009E3CE9 /* Build configuration list for PBXNativeTarget "Tuner Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9DF7CC2B275A78009E3CE9 /* Debug */,
+				DA9DF7CD2B275A78009E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9DF78F2B275A77009E3CE9 /* Project object */;
+}
